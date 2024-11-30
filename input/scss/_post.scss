@@ -7,3 +7,14 @@
   font-family: var(--#{$prefix}font-sans-serif);
   font-size: $h4-font-size;
 }
+
+/* This pushes the info-box a bit down from the csharp code examples. */
+pre.language-csharp + blockquote,
+pre.language-batch + blockquote,
+pre.language-powershell + blockquote,
+blockquote + pre.language-csharp,
+blockquote + pre.language-batch,
+blockquote + pre.language-powershell 
+ {
+  margin-top: 2rem;
+}

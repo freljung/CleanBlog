@@ -5,8 +5,8 @@
 header.masthead {
     position: relative;
     margin-bottom: 3rem;
-    padding-top: calc(8rem + 57px);
-    padding-bottom: 8rem;
+    padding-top: calc(4rem + 57px) !important;
+    padding-bottom: 5rem !important;
 
     // TIP: Background images are set within the HTML using inline CSS!
     background: no-repeat center center;
